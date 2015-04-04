@@ -1,0 +1,245 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+===========================
+CSS RESET ENds!!
+============================
+*/
+html, body {
+	font-family: "SourceSansPro","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+	font-size: 100%;
+	color: #444;
+}
+.main {
+	width: 1000px;
+	margin: 0 auto;
+	background: #fff;
+	-webkit-box-sizing: padding-box;
+	-moz-box-sizing: padding-box;
+	box-sizing: padding-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	color: #de3f1c;
+	text-decoration: underline;
+}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, h1 a:focus, h2 a:focus, h3 a:focus, h4 a:focus, h5 a:focus, h6 a:focus {
+	color: #832511;
+}
+h1 {
+	font-size: 45px;
+}
+h2 {
+	font-size: 36px;
+}
+h3 {
+	font-size: 32px;
+}
+h4 {
+	font-size: 26px;
+}
+h5 {
+	font-size: 22px;
+}
+h6 {
+	font-size: 18px;
+}
+p, span {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #444;
+	font-size: 1em;
+	line-height: 1.6em;
+}
+
+
+/*
+=================
+Code Pen Specific Styles Endss
+=================
+*/
+
+header {
+	width: 100%;
+	padding: 1rem 0;
+	margin: 1rem 0;
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.logo {
+	float: left;
+}
+header .logo img {
+	width: 240px;
+	height: 42px;
+}
+.pnav {
+	margin-top: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	float: right;
+}
+.pnav a {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-left: 16px;
+	color: #444;
+}
+.container {
+	overflow: hidden;
+	padding-bottom: 40px;
+}
+.content {
+	float: left;
+	width: 720px;
+	margin-right: 20px;
+	padding-right: 0.9375em;
+	padding-left: 0.9375em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.head h4 {
+	text-transform: uppercase;
+	font-size: 1rem;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #999;
+	letter-spacing: 1px;
+	font-weight: 700;
+	padding-bottom: 1rem;
+	margin-top: 0.2rem;
+	margin-bottom: 1rem;
+}
+.post {
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 2px solid #F3F3F3;
+	overflow: hidden;
+}
+.post h2 {
+	font-size: 35px;
+	margin-top: 0.5rem;
+	margin-bottom: 0.25rem;
+	transition: all 0.1s ease-in-out;
+}
+.post aside p {
+	display: inline-block;
+	font-size: 1rem;
+	color: #b4b4b4;
+	padding-right: 15px;
+	margin-bottom: 1.2em;
+	margin-top: 0.2em;
+}
+.post img {
+	width: 220px;
+	float: left;
+	margin-right: 15px;
+}
+.post p {
+	margin-bottom: 12px;
+}
+.post .rmore {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #444;
+	margin-top: 10px;
+}
+.post .rmore:hover {
+	color: #de3f1c;
+}
+.sidebar {
+	float: right;
+	width: 260px;
+}
+.sidebar nav {
+	margin-bottom: 40px;
+	padding: 0;
+}
+.sidebar nav a {
+	display: block;
+	color: #999;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1rem;
+	text-decoration: none;
+	padding: 0.9rem 0;
+	margin-bottom: 6.125px;
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.sidebar nav a:nth-of-type(1) {
+	padding-top: 0.2;
+}
+.sidebar nav a:hover {
+	color: #de3f1c;
+}
+footer {
+	clear: both;	
+	padding-top: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+footer nav {
+	float: left;
+}
+footer nav a {
+	font-family: 'Source Sans Pro', sans-seif;
+	padding-right: 15px;
+	color: #444;
+}
+footer small {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1+px;
+	color: #999999;
+	float: right;
+}

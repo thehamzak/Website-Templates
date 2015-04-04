@@ -1,0 +1,261 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+=====================
+CSS Reset Ends
+=====================
+*/
+html {
+  font-family: 'Source Pro Sans', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	font-weight: 500;
+}
+body {
+  background-color: #222;
+}
+#biig {
+	width: 1350px;
+	padding: 60px;
+	margin: 0 auto;
+	background: #EEE;
+}
+*,
+*::after,
+*::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  margin: 0 0 1.12em 0;
+	line-height: 1.1em;
+}
+h4, h5, h6 {
+	margin: 0 0 1em 0;
+	line-height: 1.1em;
+}
+h1, h2, h3, h4, h5, h6 {	
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+}
+p, a, span {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1 {
+	font-size: 45px;
+}
+h2 {
+	font-size: 36px;
+}
+h3 {
+	font-size: 32.4px;
+}
+h4 {
+	font-size: 21.6px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	color: #222;
+	text-decoration: none;
+}
+p {
+  font-size: 18px;
+	line-height: 1.6em;
+	margin: 0 0 1em 0;
+}
+blockquote {
+	margin: 0 0 1rem 1.5rem;
+	line-height: 1.6em;
+  padding: 0 0 0 1rem;
+  border-left: 5px solid #ccc;
+}
+h1 a:hover, h1 a:focus, h2 a:hover, h2 a:focus, h3 a:hover, h3 a:focus, h4 a:hover, h4 a:focus, h5 a:hover, h5 a:focus, h6 a:hover, h6 a:focus {
+	color: #4472B9;
+}
+
+
+/* CSS Reset Ends */
+
+header {
+  background-color: #aaa;
+	width: 1350px;
+	overflow: hidden;
+	position: relative;
+	left: -60px;
+	top: -60px;
+}
+header h1.logo {
+  color: #fff;
+  margin: 40px 0 40px 40px;
+	font-size: 75px;
+	font-weight: 700;
+	letter-spacing: 4px;
+  float: left;
+}
+header h1.logo:hover {
+	text-shadow: 0px 0px 7px #fff;
+}
+header section.banner {
+  margin: 40px 40px 0 40px;
+  float: right;
+}
+header nav {
+	clear: both;
+	background-color: #333;
+	padding: 20px;
+}
+header nav {	
+	border-top: 3px solid #4747FF;
+}
+header nav a {
+  font-family: monospace;
+	font-size: 18px;
+  color: #fff;
+	text-decoration: none;
+	padding: 20px;
+	border-right-width: 0;
+	border-left-width: 0;
+}
+header nav a.orange {
+  border-top: 3px solid #E18728;
+}
+header nav a.orange:hover {
+  background-color: #E18728;
+}
+header nav a.maroon {
+  border-top: 3px solid #BE4C39;
+}
+header nav a.maroon:hover {
+	background-color: #BE4C39;
+}
+header nav a.purple {
+  border-top: 3px solid #9351A6;
+}
+header nav a.purple:hover {
+	background-color: #9351A6;
+}
+header nav a.blue {
+  border-top: 3px solid #4472B9;
+}
+header nav a.blue:hover {
+	background-color: #4472B9;
+}
+header nav a.green {
+  border-top: 3px solid #4CA454;
+}
+header nav a.green:hover {
+	background-color: #4CA454;
+}
+header nav a.yellow {
+  border-top: 3px solid #D49B00;
+}
+header nav a.yellow:hover {
+	background-color: #D49B00;
+}
+header nav a.gray {
+	border-top: 3px solid #444;
+}
+header nav a.gray:hover{
+	background-color: #444;
+}
+header section input {
+  display: inline-block;
+	float: right;
+}
+.container {
+  
+	overflow: auto;
+}
+.content {
+	float: left;
+	width: 610px;
+	padding: 40px;
+	background: transparent;
+}
+.post {
+  padding: 40px;
+	background: #fff;
+	margin-top: 0;
+	margin-bottom: 40px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+blockquote.explanation {
+	display: block;
+}
+.post aside.pmeta {
+	display: block;
+}
+.post aside.pmeta p {
+  font-family: 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
+	text-transform: uppercase;
+	color: #999;
+	letter-spacing: 3.6px;
+}
+.post article p::after {
+	content: "...";
+	display: inline;
+}
+.post a.more::after {
+	content: " →";
+}
+aside.sidebar {
+	float: right;
+	width: 420px;
+	padding: 25px;
+	background-color: #4CA454;
+}
